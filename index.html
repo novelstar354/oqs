@@ -210,10 +210,33 @@
 　<section id="view">
     <h3>アンケート</h3>
 
-    <form action="https://script.google.com/a/macros/hongo.ed.jp/s/AKfycbyIbJYJ5s7Ghn3T3ErU6c07bSTReiWoO8rFhuB6Dm3PU2WEz9KPbfG5767CA2Vf9ccbKw/exec" method="post">
+    <form action="https://script.google.com/a/macros/hongo.ed.jp/s/AKfycbzslhrSJowm0aH4I5lZB7PIbEc6c8W7vXbwh-dMl7LymmAO6ojEMXBKnFLyJ25ajx0lQw/exec" method="post">
 
         <p>あなたの名前:
             <input type="text" name="yourname" placeholder="Novel Star" required>
+        </p>
+        <p>
+            <select name="gendar" required>
+                <option value="">性別を選択</option>
+                <option value="男性">男性</option>
+                <option value="女性">女性</option>
+                <option value="その他">その他</option>
+                <option value="回答しない">回答しない</option>
+            </select>
+        </p>
+        <p>
+            <select name="age" required>
+                <option value="">年齢を選択</option>
+                <option value="0~10">0~10</option>
+                <option value="11~20">11~20</option>
+                <option value="21~30">21~30</option>
+                <option value="31~40">31~40</option>
+                <option value="41~50">41~50</option>
+                <option value="51~60">51~60</option>
+                <option value="61~70">61~70</option>
+                <option value="71~80">71~80</option>
+                <option value="それ以上">それ以上</option>
+                <option value="回答しない">回答しない</option>
         </p>
 
         <p>どのゲームが一番好きか
